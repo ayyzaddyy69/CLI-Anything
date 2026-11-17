@@ -91,6 +91,7 @@
 !/n8n/
 !/obsidian/
 !/joplin/
+!/goodnotes/
 !/unrealinsights/
 !/firefly-iii/
 !/nsight-graphics/
@@ -196,6 +197,8 @@
 /obsidian/.*
 /joplin/*
 /joplin/.*
+/goodnotes/*
+/goodnotes/.*
 /unrealinsights/*
 /unrealinsights/.*
 /nsight-graphics/*
@@ -277,6 +280,7 @@
 !/n8n/agent-harness/
 !/obsidian/agent-harness/
 !/joplin/agent-harness/
+!/goodnotes/agent-harness/
 !/calibre/agent-harness/
 !/safari/
 !/safari/agent-harness/

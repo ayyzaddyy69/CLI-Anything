@@ -1513,6 +1513,20 @@
           "url": "https://github.com/workcr"
         }
       ]
+    },
+    {
+      "name": "goodnotes",
+      "display_name": "Goodnotes",
+      "version": "1.0.0",
+      "description": "Author, validate and send Goodnotes content (markdown notes, SVG drawings, Mermaid flowcharts, mindmaps and timelines) through a Goodnotes MCP server",
+      "requires": "Python 3.10+. Sending needs a Goodnotes MCP server (GOODNOTES_MCP_URL or GOODNOTES_MCP_COMMAND); authoring, validation and export work offline",
+      "homepage": "https://www.goodnotes.com",
+      "source_url": null,
+      "install_cmd": "pip install git+https://github.com/HKUDS/CLI-Anything.git#subdirectory=goodnotes/agent-harness",
+      "entry_point": "cli-anything-goodnotes",
+      "skill_md": "skills/cli-anything-goodnotes/SKILL.md",
+      "category": "knowledge",
+      "contributors": []
     }
   ]
 }

@@ -1168,6 +1168,13 @@ Each application received complete, production-ready CLI interfaces — not demo
 <td align="center">✅ 134</td>
 </tr>
 <tr>
+<td align="center"><strong>🗒️ <a href="goodnotes/agent-harness/">Goodnotes</a></strong></td>
+<td>Note-taking (notes, drawings &amp; diagrams)</td>
+<td><code>cli-anything-goodnotes</code></td>
+<td>Goodnotes MCP server (markdown, SVG, Mermaid tools)</td>
+<td align="center">✅ 81</td>
+</tr>
+<tr>
 <td align="center"><strong>📝 <a href="mubu/agent-harness/">Mubu</a></strong></td>
 <td>Knowledge Management &amp; Outlining</td>
 <td><code>cli-anything-mubu</code></td>
@@ -1437,8 +1444,9 @@ unrealinsights 50 passed  ✅   (49 unit + 1 e2e, 9 backend-gated e2e skipped)
 cloudanalyzer  14 passed  ✅   (7 unit + 7 e2e)
 3mf            50 passed  ✅   (50 unit)
 joplin        134 passed  ✅   (107 unit + 27 e2e, 1 skipped on Windows)
+goodnotes      81 passed  ✅   (64 unit + 17 e2e, stand-in MCP server)
 ──────────────────────────────────────────────────────────────────────────────
-TOTAL        2,464 passed  ✅   100% pass rate
+TOTAL        2,545 passed  ✅   100% pass rate
 ```
 
 ---
@@ -1513,6 +1521,7 @@ cli-anything/
 ├── 📚 zotero/agent-harness/             # Zotero CLI (new, write import support)
 ├── 📖 calibre/agent-harness/            # Calibre CLI (58 tests: 38 unit + 20 E2E)
 ├── 📓 joplin/agent-harness/             # Joplin CLI (134 tests: 107 unit + 27 e2e)
+├── 🗒️ goodnotes/agent-harness/          # Goodnotes CLI via MCP (81 tests: 64 unit + 17 e2e)
 ├── 📝 mubu/agent-harness/               # Mubu CLI (96 tests)
 ├── 📹 obs-studio/agent-harness/         # OBS Studio CLI (153 tests)
 ├── 📱 nslogger/agent-harness/           # NSLogger CLI (139 tests)
